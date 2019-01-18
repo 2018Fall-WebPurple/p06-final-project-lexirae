@@ -1,0 +1,74 @@
+/*
+*Lexi Hall
+*January 18, 2019
+*Helen Keller; New Project
+*/
+
+/* The universal selector */
+
+* {
+    margin: 0;
+    padding: 0;}
+
+/* Body attributes here */
+
+body { 
+    width: 90%;
+    background-color: white;
+    margin: 15px auto;
+    border: 1px solid black;}
+
+h1 {
+    padding: 10px;
+    font-family: "Luminari", "Geneva", cursive;}
+
+/*Here is the top of the section that one will see that pops out at them. */ 
+
+header {
+    border-bottom: 2px solid red;
+    text-align: center;
+    background-color: indianred;}
+
+
+#sidebarA {
+    width: 300px;
+    float: left;
+    padding-left: 10px;}
+
+/*This is the css for the main. This css is focused on having the text in an orderly fashion that will look good on the web page.*/ 
+
+main {
+    width: 500px;
+    height: 530px;
+    float: left;
+    border-right: 2px solid red;
+    border-left: 2px solid red;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;}
+
+#sidebarB {
+    width: 300px;
+    float: right;
+    padding-left: 10px;}
+
+/*Here, is the css for the footer. The border is a nice red color and it pops with the white background of the web page. */ 
+
+footer { 
+    clear: both;
+    border-top: 2px solid red;
+    font-size: 14px;
+    margin-left: 4px;
+    list-style-type: none;}
+
+h4 {
+    float: right;}
+
+/*This is the css for the images. Therefore, all three images are adjusted to the 
+correct size so that they can look presentable. */
+
+#helenkeller {width: 150px; height: 180px; float: center; margin-left: 65px; margin-top: 20px; border: 2px solid black; }
+#annesullivan {width: 150px; height: 180px; float: right; margin: 7px; border: 2px solid black; }
+#portrait {width: 150px; height: 190px; float: center; margin-left: 60px; margin-top: 20px; border: 2px solid black;}
+
+.margin {margin: 10px;} 
